@@ -1,0 +1,16 @@
+importFrom(graphics, plot)
+import(lattice,methods)
+export("powPar",
+       "powEx"
+       )
+exportClasses("powPar", "powEx", "power")
+exportMethods("inspect",
+              "powCalc",
+              "pp",
+              "n",
+              "theta",
+              "xi",
+              "tex",
+              ## not generic
+              "merge",
+              "plot")
