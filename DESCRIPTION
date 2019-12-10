@@ -1,7 +1,7 @@
 Package: sse
 Type: Package
 Title: Sample Size Estimation
-Version: 0.7-13
+Version: 0.7-15
 Author: Thomas Fabbro [aut, cre]
 Maintainer: Thomas Fabbro <thomas.fabbro@unibas.ch>
 URL: http://r-forge.r-project.org/projects/power/
@@ -10,11 +10,11 @@ Description: Provides functions to evaluate user-defined power functions for a p
 License: GPL-3
 LazyLoad: yes
 Imports: methods, grid, lattice, graphics, stats, parallel
-Suggests: testthat, lintr
+Suggests: testthat
 NeedsCompilation: no
 Repository: CRAN
 Repository/R-Forge/Project: power
-Repository/R-Forge/Revision: 37
-Repository/R-Forge/DateTimeStamp: 2019-08-22 12:03:16
-Date/Publication: 2019-08-28 10:00:02 UTC
-Packaged: 2019-08-22 12:12:17 UTC; rforge
+Repository/R-Forge/Revision: 40
+Repository/R-Forge/DateTimeStamp: 2019-12-09 17:00:07
+Date/Publication: 2019-12-10 09:40:02 UTC
+Packaged: 2019-12-09 17:10:42 UTC; rforge
