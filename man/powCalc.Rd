@@ -24,7 +24,6 @@
     indicating if the library parallel should be used or not, or
     numeric. In the latter case the number is passed as integer to the
     function makeCluster from library parallel. The default is FALSE.}
-  \item{...}{Not used so far.}
 }
 
 \details{If the statistic does not return the power (a numeric value

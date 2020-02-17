@@ -1,8 +1,10 @@
-version 0.7-15 2019/0
+version 0.7-16 2020/02/04
+	correct mistake in arguments-section of powCalc.Rd
+version 0.7-15 2019/09/12
 	change refine() to only refine the theta and xi of the example (so
  	far it was only the theta) and adding a test to
 	inst/slowTests/testthat/test-advanced.R
-	
+
 	change update() to correctly evaluating n.iter also after changes
 	in vector of n, theta or xi and adding several tests to
 	inst/slowTests/testthat/test-updateResample.R
