@@ -2,6 +2,7 @@ context("Standard use of sse")
 
 library(testthat)
 library(sse)
+set.seed(123)
 ## as used in the vignette(examples)
 psi <- powPar(theta = seq(from = 0.5, to = 1.5, by = 0.05),
               n = seq(from = 20, to = 60, by = 2))
@@ -122,8 +123,9 @@ inspect(pow.resample2)
 
 
 ## method = "step" is possible for resampling -> check: is method step is used?
-inspect(powEx(calc.resample, theta = 1, power = 0.9, method = "step"))
-inspect(powEx(calc.resample2, theta = 1, power = 0.9, method = "step"))
+# it is possible that by chance these lines fail because power is to small!
+ inspect(powEx(calc.resample, theta = 1, power = 0.8, method = "step"))
+ inspect(powEx(calc.resample2, theta = 1, power = 0.8, method = "step"))
 
 inspect(powEx(calc.resample2,
               theta = 1,

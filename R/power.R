@@ -1664,6 +1664,14 @@ setMethod("sampleSize",
                    "step" = {
                      element <- tail(which(dat.example$power < power.example),
                                      1) + 1
+                     if (element > nrow(dat.example)) {
+                         stop(strwrap(
+                              "The observed power for the example is to small
+                               for the step method.",
+                             prefix = " ", initial = ""),
+                             call. = FALSE)
+                         }
+                     
                      sample.size <- dat.example$sample.size[element]
                      ## for the inspection plot we need a line (based on
                      ## all data)

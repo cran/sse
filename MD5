@@ -1,12 +1,12 @@
 226cae329b95b9c1d8a22f914dbc30b0 *ChangeLog
-2e4daa138820b00c91848cc39925a861 *DESCRIPTION
+edb181cf80bb22a04202b8d583932f99 *DESCRIPTION
 c66c8d30ee9dc54fcdc7029e9986db1a *NAMESPACE
 358b11bffe312f3ea390bd2713300ffb *R/AllGenerics.R
-cefff5e9f38d18f3be64581b2967cec1 *R/power.R
-7f02516ebe0ad02477f94470922bd197 *build/vignette.rds
-709d72b6b70d7ee8f37ce344db49270b *inst/doc/examples.R
+8ca74c4f1fd40326485f59b25d6a45c1 *R/power.R
+30c423820ecc4cad953950e48f7e02db *build/vignette.rds
+af7576d4054290caeaa60b94d7641549 *inst/doc/examples.R
 f3bfa17a086b302b57b116c4f1ceeb41 *inst/doc/examples.Rnw
-2f29b68a4e62a9094cebaf00064c3ba6 *inst/doc/examples.pdf
+00204e78d0a0dd9ab958ea9db3a6d547 *inst/doc/examples.pdf
 a501f92bbccc7f1bbfa0e4f625067b25 *inst/slowTests/testthat.R
 70053c833278c83bb4c71f12870b02c8 *inst/slowTests/testthat/test-advanced.R
 d95b4a53bf7b5d75022d20b264f19114 *inst/slowTests/testthat/test-oldStylepowPar.R
@@ -25,5 +25,5 @@ b6e894777186ac420a41b5417749efc7 *man/pp.Rd
 66ef0ea7b0f094cb592a2dfada949fa2 *man/tex.Rd
 dda7a8b1f273638dde9341a29dbae846 *man/update.Rd
 a501f92bbccc7f1bbfa0e4f625067b25 *tests/testthat.R
-a92694d248a7431cf52d0d66c265d021 *tests/testthat/test-standard.R
+8dd38c27b88e52f9e479d29008d611dd *tests/testthat/test-standard.R
 f3bfa17a086b302b57b116c4f1ceeb41 *vignettes/examples.Rnw
